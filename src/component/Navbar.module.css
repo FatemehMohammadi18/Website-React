@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(17, 18, 18);
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(17, 18, 18);
+    margin-top: 0px;
+    padding: 5px;
+}
+.container {
+    margin-left: 200px;
+
+}
+.list {
+    display: flex;
+
+}
+.list li{
+    margin-right: 50px;
+    list-style-type: none;
+    font-weight: 900;
+    color: rgb(132, 27, 224);
+}
+.list li:hover{
+    color:rgb(249, 249, 250);
+}
+.logo{
+    width: 10%;
+    margin-left: 10px;
+}
+.logo img{
+    width: 80px;
+}
